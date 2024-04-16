@@ -1,14 +1,7 @@
 {
-    "name": "Flask App",
-    "description": "A simple Flask application",
-    "version": "1.0.0",
-    "environments": {
-      "python": {
-        "version": "3.8"
-      }
-    },
     "build": {
-      "ignore": ["__pycache__", "*.pyc"]
+      "src": "app.py",
+      "use": "@vercel/python"
     },
     "run": {
       "command": "python app.py",
@@ -20,6 +13,13 @@
           "flask"
         ]
       }
-    }
+    },
+    "routes":[
+        {
+            "src":"app.py",
+            "dest":"app.py"
+
+        }
+    ]
   }
   
