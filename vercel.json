@@ -1,0 +1,25 @@
+{
+    "name": "Flask App",
+    "description": "A simple Flask application",
+    "version": "1.0.0",
+    "environments": {
+      "python": {
+        "version": "3.8"
+      }
+    },
+    "build": {
+      "ignore": ["__pycache__", "*.pyc"]
+    },
+    "run": {
+      "command": "python app.py",
+      "public": true
+    },
+    "dependencies": {
+      "python": {
+        "requirements": [
+          "flask"
+        ]
+      }
+    }
+  }
+  
