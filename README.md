@@ -16,7 +16,7 @@ This Repository is dedicated for my Machine Learning's semester project which is
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/DawoodMehmood/MachineFailurePrediction.git
+   git clone https://github.com/OjhaGopal/Predictive-Maintenance.git
    cd MachineFailurePrediction
    ```
 
@@ -34,4 +34,4 @@ This Repository is dedicated for my Machine Learning's semester project which is
 
 4. **Open the app:**
 
-   Go to `http://localhost:5000` in your browser.
+   Go to `http://localhost:....` in your browser.
